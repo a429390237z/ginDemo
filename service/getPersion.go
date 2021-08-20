@@ -32,11 +32,6 @@ func (p *People) DelPerson(id int) {
 		}
 	}
 	fmt.Println(n)
-	//if n != -1 {
-	//	*p.persons = append(*p.persons[:n], *p.persons[n+1:]...)
-	//} else {
-	//	fmt.Println("没找到！")
-	//}
 }
 
 func (p *People) ShowCount() int {
